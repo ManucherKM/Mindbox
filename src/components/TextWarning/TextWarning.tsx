@@ -1,5 +1,5 @@
-import classes from './TextWarning.module.scss'
 import { FC, HTMLAttributes } from 'react'
+import classes from './TextWarning.module.scss'
 
 const TextWarning: FC<Omit<HTMLAttributes<HTMLSpanElement>, 'className'>> = ({
 	children,

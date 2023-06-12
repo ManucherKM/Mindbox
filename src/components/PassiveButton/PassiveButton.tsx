@@ -1,5 +1,5 @@
-import classes from './PassiveButton.module.scss'
 import { FC, HTMLAttributes } from 'react'
+import classes from './PassiveButton.module.scss'
 
 const PassiveButton: FC<
 	Omit<HTMLAttributes<HTMLButtonElement>, 'className'>

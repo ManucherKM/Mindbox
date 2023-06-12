@@ -1,5 +1,5 @@
-import classes from './Input.module.scss'
 import { FC, InputHTMLAttributes } from 'react'
+import classes from './Input.module.scss'
 
 const Input: FC<
 	Omit<InputHTMLAttributes<HTMLInputElement>, 'className'>

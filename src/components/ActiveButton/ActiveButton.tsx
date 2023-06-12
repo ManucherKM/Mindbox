@@ -1,5 +1,5 @@
+import { ButtonHTMLAttributes, FC } from 'react'
 import classes from './ActiveButton.module.scss'
-import { FC, ButtonHTMLAttributes } from 'react'
 
 const ActiveButton: FC<
 	Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'className'>

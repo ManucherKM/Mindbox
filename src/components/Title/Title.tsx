@@ -1,5 +1,5 @@
-import classes from './Title.module.scss'
 import { FC, HTMLAttributes } from 'react'
+import classes from './Title.module.scss'
 
 const Title: FC<Omit<HTMLAttributes<HTMLSpanElement>, 'className'>> = ({
 	children,
