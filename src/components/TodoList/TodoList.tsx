@@ -56,7 +56,7 @@ const TodoList = () => {
 	}
 
 	return (
-		<div className={classes.todolist}>
+		<div className={classes.todolist} data-testid="TodoList">
 			<Title>Tasks</Title>
 			<div>
 				{outstandingTasks.length ? (

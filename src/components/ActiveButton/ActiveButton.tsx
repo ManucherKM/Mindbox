@@ -5,7 +5,7 @@ const ActiveButton: FC<
 	Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'className'>
 > = ({ children, ...props }) => {
 	return (
-		<button className={classes.button} {...props}>
+		<button className={classes.button} {...props} data-testid="ActiveButton">
 			{children}
 		</button>
 	)

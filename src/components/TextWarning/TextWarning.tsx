@@ -6,7 +6,7 @@ const TextWarning: FC<Omit<HTMLAttributes<HTMLSpanElement>, 'className'>> = ({
 	...props
 }) => {
 	return (
-		<span className={classes.warning} {...props}>
+		<span className={classes.warning} data-testid="TextWarning" {...props}>
 			{children}
 		</span>
 	)

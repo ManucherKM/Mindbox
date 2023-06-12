@@ -6,7 +6,7 @@ const Title: FC<Omit<HTMLAttributes<HTMLSpanElement>, 'className'>> = ({
 	...props
 }) => {
 	return (
-		<span className={classes.title} {...props}>
+		<span className={classes.title} data-testid="Title" {...props}>
 			{children}
 		</span>
 	)

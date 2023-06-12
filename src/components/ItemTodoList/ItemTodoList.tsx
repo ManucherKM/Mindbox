@@ -20,7 +20,7 @@ const ItemTodoList: FC<IItemTodoList> = ({
 	...props
 }) => {
 	return (
-		<div className={classes.itemTodoList} {...props}>
+		<div className={classes.itemTodoList} data-testid="ItemTodoList" {...props}>
 			<span>{task.text}</span>
 			<CheckBox checked={isDone} onChange={() => setIsDone(task)} />
 			<PassiveButton onClick={() => removeTask(task)}>
