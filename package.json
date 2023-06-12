@@ -8,8 +8,8 @@
 		"build": "tsc && vite build",
 		"preview": "vite preview",
 		"format": "npx prettier --write src/",
-		"test": "vitest",
-		"test:ui": "vitest --ui"
+		"test": "vite build && vitest",
+		"test:ui": "vite build && vitest --ui"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
