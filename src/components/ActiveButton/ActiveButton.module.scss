@@ -1,0 +1,21 @@
+@import '../../assets/styles/vars.scss';
+
+.button {
+	outline: none;
+	border-radius: 12px;
+	font: inherit;
+	font-size: 16px;
+	padding: 10px 20px;
+	color: black;
+	background-color: $dominant1;
+	transition: opacity 300ms;
+	font-weight: 600;
+	cursor: pointer;
+	border: none;
+
+	&:hover,
+	&:focus {
+		transition: opacity 200ms;
+		opacity: 0.8;
+	}
+}

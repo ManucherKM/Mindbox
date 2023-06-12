@@ -1,0 +1,18 @@
+@import '../../assets/styles/vars.scss';
+
+.input {
+	outline: none;
+	font: inherit;
+	font-size: 16px;
+	border-radius: 12px;
+	color: $background250;
+	border: 1px solid transparent;
+	padding: 10px 20px;
+	background-color: $background500;
+	cursor: text;
+	width: 100%;
+
+	&:focus {
+		border-color: $dominant1;
+	}
+}

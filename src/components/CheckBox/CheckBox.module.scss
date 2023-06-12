@@ -1,0 +1,24 @@
+@import '../../assets/styles/vars.scss';
+
+.checkbox {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background-color: $background500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.2rem;
+	border: 1px solid $dominant1;
+	cursor: pointer;
+
+	&:checked {
+		background-color: $dominant1;
+	}
+
+	&:checked:after {
+		content: '✔';
+		color: $background500;
+		font-size: larger;
+	}
+}

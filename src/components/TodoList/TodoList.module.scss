@@ -1,0 +1,12 @@
+.todolist {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+    
+
+	.wrapperCreateTask {
+		display: flex;
+		gap: 8px;
+	}
+}

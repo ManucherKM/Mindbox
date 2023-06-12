@@ -1,0 +1,17 @@
+@import '../../assets/styles/vars.scss';
+
+.itemTodoList {
+	display: flex;
+	gap: 8px;
+	background-color: $background500;
+	padding: 10px 20px;
+	color: $dominant1;
+
+	span {
+		width: 85%;
+	}
+
+	input[type='checkbox'] {
+		margin: auto;
+	}
+}
